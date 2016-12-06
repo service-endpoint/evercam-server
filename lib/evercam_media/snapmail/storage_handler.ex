@@ -1,6 +1,6 @@
 defmodule EvercamMedia.Snapmail.StorageHandler do
   @moduledoc """
-  TODO
+  Provides functions to save snapshot captured for snapshot
   """
 
   use GenEvent

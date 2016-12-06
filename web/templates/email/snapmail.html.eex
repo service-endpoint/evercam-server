@@ -63,7 +63,8 @@
               <p style="line-height: 1.6; margin: 0 0 10px; padding: 0;"><b><%= @camera.name %></b> (<%= @camera.exid %>) - See the live view on Evercam by <a style="color:#428bca; text-decoration:none;" href="https://dash.evercam.io/v1/cameras/<%= @camera.exid %>">clicking here</a></p>
               <br>
             <% else %>
-            <p style="line-height: 1.6; margin: 0 0 10px; padding: 0;">Could not retrieve an image from <a target="_blank" href="https://dash.evercam.io/v1/cameras/<%= @camera.exid %>"><%= @camera.name %></a></p>
+              <p style="line-height: 1.6; margin: 0 0 10px; padding: 0;">Could not retrieve an image from <a target="_blank" href="https://dash.evercam.io/v1/cameras/<%= @camera.exid %>"><%= @camera.name %></a></p>
+
             <% end %>
 
             <p style="line-height: 1.6; margin: 0 0 10px; padding: 0;">Thanks,</p><br>

@@ -1,6 +1,6 @@
 defmodule EvercamMedia.Snapmail.PollHandler do
   @moduledoc """
-  TODO
+  Provide functions to update snapmail worker config
   """
   alias EvercamMedia.Snapmail.Poller
 

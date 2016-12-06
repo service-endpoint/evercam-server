@@ -1,6 +1,6 @@
 defmodule EvercamMedia.Snapmail.SnapmailerSupervisor do
   @moduledoc """
-  TODO
+  Provides function to manage snapmail workers
   """
 
   use Supervisor
