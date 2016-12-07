@@ -13,7 +13,7 @@ defmodule Snapmail do
     field :message, :string
     field :notify_days, :string
     field :notify_time, :string
-    field :is_public, :boolean
+    field :is_public, :boolean, default: false
     timestamps(type: Ecto.DateTime, default: Ecto.DateTime.utc)
   end
 

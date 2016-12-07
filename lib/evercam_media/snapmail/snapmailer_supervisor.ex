@@ -64,7 +64,7 @@ defmodule EvercamMedia.Snapmail.SnapmailerSupervisor do
           days: Snapmail.get_days_list(snapmail.notify_days),
           vendor_exid: Camera.get_vendor_attr(snapmail.camera, :exid),
           notify_time: snapmail.notify_time,
-          timezone: snapmail.camera.timezone,
+          timezone: Camera.get_timezone(snapmail.camera),
           url: Camera.snapshot_url(snapmail.camera),
           auth: Camera.auth(snapmail.camera),
           sleep: Snapmail.sleep(snapmail.notify_time, snapmail.camera.timezone)
